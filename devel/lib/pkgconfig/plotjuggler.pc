@@ -1,0 +1,8 @@
+prefix=/home/uav/catkin_ws/devel
+
+Name: plotjuggler
+Description: Description of plotjuggler
+Version: 1.2.1
+Cflags: -I/home/uav/catkin_ws/src/PlotJuggler/include
+Libs: -L/home/uav/catkin_ws/devel/lib 
+Requires: ros_type_introspection

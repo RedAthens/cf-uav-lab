@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+ <tabbed_widget name="Main Window" parent="main_window">
+  <plotmatrix columns="2" tab_name="plot" rows="2">
+   <plot row="0" col="0">
+    <range left="731.846936" right="736.836743" bottom="-3.000000" top="3.000000"/>
+    <limitY min="-3" max="3"/>
+    <curve R="0" B="255" name="Robot_1/pose/pose/position/x" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range left="731.846936" right="736.836743" bottom="-1.000000" top="3.000000"/>
+    <limitY min="-1" max="3"/>
+    <curve R="255" B="0" name="Robot_1/pose/pose/position/z" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range left="731.846936" right="736.836743" bottom="-2.000000" top="2.000000"/>
+    <limitY min="-2" max="2"/>
+    <curve R="0" B="0" name="Robot_1/pose/pose/position/y" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range left="1.316562" right="1.316706" bottom="-5.000000" top="5.000000"/>
+    <limitY min="-5" max="5"/>
+    <curve R="0" B="0" name="Robot_1/pose/pose/position/y" G="128"/>
+    <transform axisX="Robot_1/pose/pose/position/x" value="XYPlot"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="0"/>
+ </tabbed_widget>
+ <tabbed_widget name="Main Window" parent="main_window">
+  <plotmatrix columns="2" tab_name="plot" rows="2">
+   <plot row="0" col="0">
+    <range left="731.846936" right="736.836743" bottom="-3.000000" top="3.000000"/>
+    <limitY min="-3" max="3"/>
+    <curve R="0" B="255" name="Robot_1/pose/pose/position/x" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range left="731.846936" right="736.836743" bottom="-1.000000" top="3.000000"/>
+    <limitY min="-1" max="3"/>
+    <curve R="255" B="0" name="Robot_1/pose/pose/position/z" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range left="731.846936" right="736.836743" bottom="-2.000000" top="2.000000"/>
+    <limitY min="-2" max="2"/>
+    <curve R="0" B="0" name="Robot_1/pose/pose/position/y" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range left="1.316562" right="1.316706" bottom="-5.000000" top="5.000000"/>
+    <limitY min="-5" max="5"/>
+    <curve R="0" B="0" name="Robot_1/pose/pose/position/y" G="128"/>
+    <transform axisX="Robot_1/pose/pose/position/x" value="XYPlot"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="0"/>
+ </tabbed_widget>
+ <use_relative_time_offset enabled="1"/>
+ <previouslyLoadedStreamer name="ROS Topic Streamer" configuration="/Robot_1/pose "/>
+</root>
+

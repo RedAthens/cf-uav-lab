@@ -1,0 +1,10 @@
+<launch>
+  	<!-- Launches the mocap_optitrack, get all the pose  -->
+	<include file="$(find mocap_optitrack)/launch/mocap.launch" />
+        
+        <node pkg="mocap_optitrack" type="get_vel_node" name="get_robot1_vel_node" output="screen">
+                <param name="low_pass_param" value="0.2" />
+                <remap from="/Robot/pose" to="/Robot_1/pose"/>
+                <remap from="/Robot/vel" to="/Robot_1/vel"/>
+        </node>
+</launch>

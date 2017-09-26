@@ -1,0 +1,5 @@
+<launch>
+	<include file="$(find ardrone_autonomy)/launch/ardrone.launch" />
+	<!-- Launches the keyboard controller -->
+	<node name="keyboard_controller" pkg="ardrone_tutorials" type="keyboard_controller.py" required="true"/>
+</launch>

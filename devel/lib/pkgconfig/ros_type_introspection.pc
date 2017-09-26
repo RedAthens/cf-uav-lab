@@ -1,0 +1,8 @@
+prefix=/home/uav/catkin_ws/devel
+
+Name: ros_type_introspection
+Description: Description of ros_type_introspection
+Version: 0.9.0
+Cflags: -I/home/uav/catkin_ws/src/ros_type_introspection/include
+Libs: -L/home/uav/catkin_ws/devel/lib -lros_type_introspection
+Requires: roscpp rostime topic_tools rosbag rosbag_storage roscpp_serialization
